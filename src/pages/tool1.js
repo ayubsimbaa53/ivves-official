@@ -124,7 +124,7 @@ function tool1() {
                         <p className="mb-2 text-sm md:text-base">
                           Recent searches and tagged(relevant) tools | Clear
                         </p>
-                        <div className="flex items-center justify-between gap-2 bg-white px-5 py-2 ">
+                        <div className="flex items-center justify-between gap-2 px-5 py-2 ">
                           <button className=" rounded-xl border  border-gray-300 px-1 hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
                             Tool 1
                           </button>
