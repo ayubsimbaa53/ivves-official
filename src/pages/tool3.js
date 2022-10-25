@@ -326,7 +326,7 @@ function tool3() {
           </div>
         </div>
       </div>
-      {/* business contianer circle */}
+      {/* business contaner circle */}
 
       <div className="relative m-auto  w-[340px] sm:w-[480px] md:w-[490px] lg:w-[800px]">
         <div className="m-auto mt-16 mb-16 w-[340px] sm:w-[400px] md:w-[490px] lg:w-[800px]">
@@ -517,11 +517,11 @@ function tool3() {
               onClick={() => setActive("")}
               className="absolute right-0 top-[-40px] flex h-[32px] w-[32px] cursor-pointer items-center justify-center rounded-full bg-white shadow-md sm:top-[-25px] sm:h-[24px] sm:w-[24px] md:top-[-35px]"
             >
-              <IoClose className="text-sm font-bold md:text-[20px]" />
+              <IoClose className="text-sm font-bold dark:text-black md:text-[20px]" />
             </div>
             {active === "tool-one" && (
               <div className="flex w-full flex-col gap-4">
-                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-[6px] px-4 shadow-sm">
+                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-[6px] px-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <p className=" text-xs md:text-sm lg:text-base">
                     Tool Name 1
                   </p>
@@ -530,7 +530,7 @@ function tool3() {
                   </div>
                 </div>
 
-                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm">
+                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <h4 className="font-semibold sm:text-xs md:text-sm lg:text-base">
                     What is the tool for:{" "}
                     <span className="font-normal">
@@ -574,14 +574,14 @@ function tool3() {
             )}
             {active === "tool-two" && (
               <div className="flex w-full flex-col gap-4">
-                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm">
+                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <p className="text-base">Tool Name 2</p>
                   <div>
                     <BiChevronRight className="text-lg" />
                   </div>
                 </div>
 
-                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm">
+                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <h4 className="text-base font-semibold">
                     What is the tool for:{" "}
                     <span className="font-normal">
@@ -621,14 +621,14 @@ function tool3() {
             )}
             {active === "tool-three" && (
               <div className="flex w-full flex-col gap-4">
-                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm">
+                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <p className="text-base">Tool Name 3</p>
                   <div>
                     <BiChevronRight className="text-lg" />
                   </div>
                 </div>
 
-                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm">
+                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <h4 className="text-base font-semibold">
                     What is the tool for:{" "}
                     <span className="font-normal">
@@ -668,14 +668,14 @@ function tool3() {
             )}
             {active === "tool-four" && (
               <div className="flex w-full flex-col gap-4">
-                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm">
+                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <p className="text-base">Tool Name 4</p>
                   <div>
                     <BiChevronRight className="text-lg" />
                   </div>
                 </div>
 
-                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm">
+                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <h4 className="text-base font-semibold">
                     What is the tool for:{" "}
                     <span className="font-normal">
@@ -699,7 +699,7 @@ function tool3() {
                     <h4 className="text-base font-semibold">
                       Links to:{" "}
                       <Link href="https://learn.ivves.eu">
-                        <a className="font-normal text-blue-600">
+                        <a className="font-normal text-blue-600 ">
                           https://learn.ivves.eu
                         </a>
                       </Link>{" "}
@@ -716,14 +716,14 @@ function tool3() {
 
             {active === "tool-five" && (
               <div className="flex w-full flex-col gap-4">
-                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm">
+                <div className="flex w-full items-center justify-between rounded-[6px] bg-white py-2 px-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <p className="text-base">Tool Name 5</p>
                   <div>
                     <BiChevronRight className="text-lg" />
                   </div>
                 </div>
 
-                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm">
+                <div className="w-full rounded-[6px] bg-white p-4 shadow-sm dark:bg-[#131B2D] dark:text-white">
                   <h4 className="text-base font-semibold">
                     What is the tool for:{" "}
                     <span className="font-normal">
