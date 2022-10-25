@@ -1,6 +1,6 @@
-# Responsive Ecrem front + Dark Mode
+# Responsive ivves front + Dark Mode
 
-## Responsive Ecrem front
+## Responsive ivves front
 
 - Responsive design.
 - Dark Mode enabled.
@@ -35,8 +35,7 @@ README.md
 
 ### Running Locally
 
-1. Clone this repository `git clone https://github.com/MiadV/hiredli-tw.git`
-2. Navigate to project folder and install the dependencies.
+ Navigate to project folder and install the dependencies.
 
 
 npm install
@@ -45,4 +44,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-# IVVS
+# IVVES
